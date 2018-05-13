@@ -1,1 +1,29 @@
-theme: jekyll-theme-cayman
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Custom variables
+title: Tiny Tools Microservices
+email: team@tinytools.io
+
+# Build settings
+safe: true
+timezone: Europe/Berlin
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ # default until here
+  - .idea
+  - CNAME
+
+# Front matter
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
