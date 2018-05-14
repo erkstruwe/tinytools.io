@@ -1,0 +1,16 @@
+{
+  "name": "tinytools.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "echo Installing ruby bundler dependencies && bundle install",
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkstruwe/tinytools.io.git"
+  },
+  "author": "Tiny Tools Microservices GmbH <team@tinytools.io>",
+  "license": "UNLICENSED",
+  "private": true
+}
